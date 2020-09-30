@@ -1,0 +1,28 @@
+3 5 2 19
+aabbcc 13 1
+bbbccc 16 3
+aaaaac 13 3
+aaaaaaaaa
+bbbbbbbbb
+ccccddddd
+eeeeeeeef
+fffffffff
+R bbbbbbbbb aabbcc
+R bbbbbbbbb aaaaac
+R ccccddddd aabbcc
+R ccccddddd aaaaac
+R ccccddddd bbbccc
+R bbbbbbbbb bbbccc
+R eeeeeeeef bbbccc
+R eeeeeeeef bbbccc
+R eeeeeeeef aaaaac
+P bbbbbbbbb
+P bbbccc
+P eeeeeeeef ccccddddd
+P aaaaac
+P bbbccc aaaaac
+D ccccddddd aabbcc
+D ccccddddd aaaaac
+R fffffffff aaaaac
+P fffffffff
+P eeeeeeeef ccccddddd
