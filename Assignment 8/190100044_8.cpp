@@ -271,8 +271,8 @@ int main() {
   }
 
   Node *root = expressionTree(postfix);
-  cout << general_steps(root, (postfix.length() - 1) / 2)[0] << " "
-       << general_time(root, (postfix.length() - 1) / 2)[0] << "\n";
+  cout << general_steps(root, (postfix.length() + 1) / 2)[0] << " "
+       << general_time(root, (postfix.length() + 1) / 2)[0] << "\n";
 
   for (int i = 0; i < t; i++) {
     cout << general_steps(root, k[i])[0] << " " << general_time(root, k[i])[0]
