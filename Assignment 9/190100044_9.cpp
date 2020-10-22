@@ -142,6 +142,11 @@ int main() {
                << "\n";
           return 0;
         }
+        if (a.first == b.first && c.first == d.first) {
+          cout << "not unique"
+               << "\n";
+          return 0;
+        }
       }
     }
     cout << "unique"
